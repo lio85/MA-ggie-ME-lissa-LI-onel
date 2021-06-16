@@ -1,0 +1,49 @@
+v mameli
+
+  > node_modules
+  v public
+    > css
+    > imagenes
+    > wireframe
+  v src
+    v controllers
+      - Crear los controladores correspondientes para cada vista (recordar exportar /
+        usar el método render para redireccionar a las vistas) -
+    > database
+      - no está explicitamente entre los requisitos, pero quizá sea un requisito a futuro
+        (preguntar) -
+    > routes
+       - Crear las rutas correspondientes en routes (recordar exportar) -
+    v views
+      > partials
+ 	    - aquí tendremos elementos que se repitan en todo el sitio, independientemente
+ 	    de la vista (Ejs: Head <head> / Header <header> / Footer <footer>) - 
+      > products
+        - aquí tendremos las vistas de productos (listado productos - detalle producto -
+	    creación producto - edición producto) -
+      > users
+	    - aquí tendremos las vistas de usuario (registro - login - perfil) -
+      ▄ carrito.ejs
+      ▄ index.ejs
+      ▄ login.ejs
+      ▄ prodetail.ejs
+      ▄ signup.ejs
+  ▄ app.js
+
+▄ .gitignore
+▄ package-lock.json
+▄ package.json
+▄ README.md
+▄ retro.md 
+
+
+
+Extras:
+
+9. Crear formulario para cargar un nuevo producto (con sus estilos)
+   - imagino que es un .ejs y un .css nuevos. Preguntar -
+
+10. Crear formulario para editar un producto (con sus estilos)
+   - imagino que es un .ejs y un .css nuevos. Preguntar -
+
+11. Importar desde el entry poin (app.js) las rutas para poder utilizarlas

@@ -1,0 +1,7 @@
+1) npm install ejs
+2) en app.js:
+   app.set('view engine', 'ejs'); // con esto le decimos a express que vamos a
+utilizar el motor de vistas ejs, previamente instalado.
+
+3) en cada app.get (/, prodetail, carrito, login y signup):
+   res.render('vista.ejs');
